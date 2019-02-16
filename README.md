@@ -10,3 +10,6 @@ The figure below is a preliminary attempt to create an early-vision connection d
 
 ![network diagram](http://https://github.com/bptripp/early-vision/new/master?macaque-early-vision "network diagram")
 
+[1] M. Livingstone and D. Hubel, “Segregation of form, color, movement, and depth: anatomy, physiology, and perception,” Science (80-. )., vol. 240, no. 4853, pp. 740–749, 1988.
+
+[2] J. J. Nassi and E. M. Callaway, “Parallel processing strategies of the primate visual system,” Nat. Rev. Neurosci., vol. 10, no. May, pp. 361–372, 2009.
