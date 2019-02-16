@@ -8,7 +8,7 @@ Since then, many studies have provided additional details on early vision pathwa
 
 The figure below is a preliminary attempt to create an early-vision connection diagram that summarizes some of the more recent literature, particularly focusing on feed-forward connections. The blue labels beside many of the connections are references to experimental studies that give evidence for the corresponding connections. The references are in the .bib file. 
 
-![network diagram](http://https://github.com/bptripp/early-vision/new/master?macaque-early-vision "network diagram")
+![network diagram](https://github.com/bptripp/early-vision/blob/master/macaque-early-vision.png "network diagram")
 
 [1] M. Livingstone and D. Hubel, “Segregation of form, color, movement, and depth: anatomy, physiology, and perception,” Science (80-. )., vol. 240, no. 4853, pp. 740–749, 1988.
 
