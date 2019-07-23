@@ -1,0 +1,109 @@
+[
+  { "name": "RGC" },
+  { "name": "Parvo", "parent": "RGC" },
+  { "name": "Magno", "parent": "RGC" },
+  { "name": "Konio", "parent": "RGC" },
+
+  { "name": "LGN" },
+  { "name": "Parvo", "parent": "LGN" },
+  { "name": "Magno", "parent": "LGN" },
+  { "name": "Konio", "parent": "LGN" },
+
+  { "name": "V1" },
+  { "name": "2/3", "parent": "V1"},
+  { "name": "4", "parent": "V1"},
+  { "name": "5", "parent": "V1"},
+  { "name": "6", "parent": "V1"},
+
+  { "name": "2", "parent": "V1:2/3"},
+  { "name": "3A", "parent": "V1:2/3"},
+  { "name": "3B", "parent": "V1:2/3"},
+  { "name": "4A", "parent": "V1:4"},
+  { "name": "4B", "parent": "V1:4"},
+  { "name": "4Calpha", "parent": "V1:4"},
+  { "name": "4Cbeta", "parent": "V1:4"},
+
+  { "name": "blob", "parent": "V1:2"},
+  { "name": "blob", "parent": "V1:3A"},
+  { "name": "blob", "parent": "V1:3B"},
+  { "name": "blob", "parent": "V1:4A"},
+
+  { "name": "interblob", "parent": "V1:2"},
+  { "name": "interblob", "parent": "V1:3A"},
+  { "name": "interblob", "parent": "V1:3B"},
+  { "name": "interblob", "parent": "V1:4A"},
+
+  { "name": "pyramids", "parent": "V1:2:blob"},
+  { "name": "pyramids", "parent": "V1:3A:blob"},
+  { "name": "pyramids", "parent": "V1:3B:blob"},
+  { "name": "pyramids", "parent": "V1:4A:blob"},
+  { "name": "inhibitory", "parent": "V1:2:blob"},
+  { "name": "inhibitory", "parent": "V1:3A:blob"},
+  { "name": "inhibitory", "parent": "V1:3B:blob"},
+  { "name": "inhibitory", "parent": "V1:4A:blob"},
+
+  { "name": "pyramids", "parent": "V1:2:interblob"},
+  { "name": "pyramids", "parent": "V1:3A:interblob"},
+  { "name": "pyramids", "parent": "V1:3B:interblob"},
+  { "name": "pyramids", "parent": "V1:4A:interblob"},
+  { "name": "inhibitory", "parent": "V1:2:interblob"},
+  { "name": "inhibitory", "parent": "V1:3A:interblob"},
+  { "name": "inhibitory", "parent": "V1:3B:interblob"},
+  { "name": "inhibitory", "parent": "V1:4A:interblob"},
+
+  { "name": "spiny-stellates", "parent": "V1:4B"},
+  { "name": "pyramids", "parent": "V1:4B"},
+  { "name": "inhibitory", "parent": "V1:4B"},
+
+  { "name": "local-pyramids", "parent": "V1:5"},
+  { "name": "small-projection-pyramids", "parent": "V1:5"},
+  { "name": "large-projection-pyramids", "parent": "V1:5"},
+  { "name": "inhibitory", "parent": "V1:5"},
+
+  { "name": "Ialpha-pyramids", "parent": "V1:6"},
+  { "name": "Ibeta-pyramids", "parent": "V1:6"},
+  { "name": "IIA-pyramids", "parent": "V1:6"},
+  { "name": "IIB-pyramids", "parent": "V1:6"},
+  { "name": "IIC-pyramids", "parent": "V1:6"},
+  { "name": "inhibitory", "parent": "V1:6"},
+
+  { "name": "V2" },
+  { "name": "2/3", "parent": "V2"},
+  { "name": "4", "parent": "V2"},
+  { "name": "5", "parent": "V2"},
+  { "name": "6", "parent": "V2"},
+
+  { "name": "thin", "parent": "V2:2/3"},
+  { "name": "thin", "parent": "V2:4"},
+  { "name": "thin", "parent": "V2:5"},
+  { "name": "thin", "parent": "V2:6"},
+
+  { "name": "pale", "parent": "V2:2/3"},
+  { "name": "pale", "parent": "V2:4"},
+  { "name": "pale", "parent": "V2:5"},
+  { "name": "pale", "parent": "V2:6"},
+
+  { "name": "thick", "parent": "V2:2/3"},
+  { "name": "thick", "parent": "V2:4"},
+  { "name": "thick", "parent": "V2:5"},
+  { "name": "thick", "parent": "V2:6"},
+
+  { "name": "V3" },
+  { "name": "2/3", "parent": "V3"},
+  { "name": "4", "parent": "V3"},
+  { "name": "5", "parent": "V3"},
+  { "name": "6", "parent": "V3"},
+
+  { "name": "V4" },
+  { "name": "2/3", "parent": "V4"},
+  { "name": "4", "parent": "V4"},
+  { "name": "5", "parent": "V4"},
+  { "name": "6", "parent": "V4"},
+
+  { "name": "MT" },
+  { "name": "2/3", "parent": "MT"},
+  { "name": "4", "parent": "MT"},
+  { "name": "5", "parent": "MT"},
+  { "name": "6", "parent": "MT"}
+]
+
